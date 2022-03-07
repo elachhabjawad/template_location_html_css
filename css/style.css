@@ -1,0 +1,725 @@
+/*------------------------global varriable--------------------------- */
+:root{
+
+	--black:#111111;
+	--red:#fa2837;
+	--blue:#005293;
+	--white:#FFFFFF;
+
+}
+/*------------------ body ------------------------------*/
+body{
+
+	font-family: 'Lato', sans-serif;
+	background-color: var(--white);
+}
+
+/*--------------------font-size ----------------------------- */
+.fz-16{
+	font-size: 14px;
+}
+
+.fz-20{
+	font-size: 18px;
+}
+/*--------------------------  global class and tags------------------*/
+
+.ml-2em{
+	margin-left: 2rem;
+}
+
+
+
+.text-primary{
+	color: var(--red)!important;
+}
+
+.btn-primary{
+	background-color: var(--red);
+	border: var(--red);
+}
+
+.btn-primary:hover{
+	background-color: var(--red);
+	border: var(--red);
+}
+
+input:focus{
+	border: var(--red);
+	padding: 10px;
+}
+
+ hr{
+	border: 1px solid var(--red);
+	width: 150px;
+	margin: 25px auto 40px;
+}
+
+.my-6{
+margin: 60px auto;
+}
+
+
+
+
+
+
+
+/*-------------- header -----------------------*/
+
+.top-header .fa{
+	padding: 4px;
+	border : 2px solid var(--black);
+	border-radius: 50px;
+}
+
+.navbar{
+	background-color : var(--black);
+	padding: 10px;
+}
+
+.input-group-text{
+	background-color: var(--white);
+	border:0;
+}
+
+
+
+.navbar .navbar-toggler{
+	color: var(--white);
+	font-weight: 300;
+}
+
+.navbar .fas{
+	color: var(--white);
+	font-size: 12px;
+
+}
+
+
+.nav-item a {
+	color:var(--white);
+	margin: auto 12px;
+	font-size: 14px;
+}
+
+.nav-item a:hover{
+	color:var(--blue);
+}
+
+.bottom-header{
+	background-image: url('../assets/img-1.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+}
+
+.bottom-header h1{
+	color:var(--white);
+	margin: 150px auto; 
+	text-align: center;
+	font-weight: 600;
+
+}
+
+.bottom-header p{
+	color:var(--white);
+	margin: -120px auto; 
+	text-align: center;
+	font-weight: 600;
+
+}
+
+.bottom-header .buttons{
+	
+margin: 180px auto;
+}
+
+
+
+
+
+
+/*-------------- services -----------------------*/
+.services{
+	margin: 80px  auto 150px;
+	padding: 20px;
+	
+}
+
+
+
+
+.services .icon-services{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background: var(--red);
+	margin: 25px 60px;
+	position: relative;
+	
+	
+}
+
+.services .icon-services .fa , .services .icon-services .fas{
+	font-size: 30px;
+	position: absolute;
+	top:35px;
+	left: 35px;
+	color: var(--white);
+
+	
+	
+}
+
+ .services  p{
+	letter-spacing: 1.2px;
+	line-height: 2;
+	
+}
+
+
+/*-------------- cars -----------------------*/
+
+.cars{
+	
+	margin-bottom: 150px;
+	padding: 20px;
+}
+
+  .special{
+	letter-spacing: 1.2px;
+	line-height: 2;
+	
+}
+.arrond{
+	margin: auto;
+	height: 35px;
+	width: 180px;
+	background-color: var(--red);
+	border-radius: 5px;
+}
+
+.arrond h5{
+	
+	color:var(--white);
+	text-align: center;
+	font-size: 14px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 10px;
+}
+
+
+.second-arrond{
+	margin: auto;
+	height: 50px;
+	width: 50px;
+	border-color: var(--red) transparent transparent transparent;
+	border-style: solid;
+	border-width: 20px 20px 20px 20px;
+}
+
+.warraper{
+	position: relative;
+	width: 100%;
+}
+
+.child{
+	position: absolute;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.6);
+	width: inherit;
+	height: 30px;
+	color: var(--white);
+	font-size: 13px;
+}
+
+.img-card{
+	display: none;
+}
+
+
+
+/*-------------- statistique -----------------------*/
+.statistique{
+	background-image: url('../assets/img-3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+	margin-bottom: 150px;
+	padding: 20px;
+}
+
+.statistique .col-md-3 .group-statistique{
+	background-color:var(--red);
+	width: 180px;
+	height: 180px;
+	margin: 50px auto;
+	border-radius: 50%;
+	
+	
+	
+}
+.statistique .col-md-3 .group-statistique .sub-statistique{
+	
+	text-align: center;
+	color:var(--white);
+	font-weight: bolder;
+}
+
+.statistique .col-md-3 .group-statistique .fa , .statistique .col-md-3 .group-statistique .fas{
+	margin: 40px auto 10px auto;
+	font-size:24px;
+
+}
+
+.statistique .col-md-3 .group-statistique .sub-statistique h5{
+	font-size:18px;
+	font-weight: 900;
+}
+
+.statistique .col-md-3 .group-statistique .sub-statistique p{
+	font-size:14px;
+}
+/*-------------- customer_review -----------------------*/
+.customer_review {
+	
+	
+	
+	margin-bottom: 150px;
+	padding: 20px;
+}
+
+.customer_review .card-header {
+	padding: 20px 20px 0  20px;
+	border:none;
+	background-color: var(--white);	
+}
+
+.customer_review .fas {
+	color: var(--red);
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+	display: flex;
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+	transform: translateX(0);
+}
+
+
+/*-------------- clients_fidell -----------------------*/
+.clients_fidell{
+	height: 450px;
+	background-image: url('../assets/img-4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	padding: 20px;
+
+}
+
+.clients_fidell{
+	color: white;
+	position: relative;
+}
+
+.clients_fidell .clients_fidell-intro{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+
+}
+
+.clients_fidell .clients_fidell-intro h3{
+	font-weight: 900;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+
+
+.clients_fidell .clients_fidell-intro p{
+	font-weight: 600;
+	
+}
+/*-------------- footer -----------------------*/
+footer{
+	
+	background-color: var(--black);
+	height: 450px;
+	padding: 40px;
+	bottom: 0;
+	color:var(--white);
+}
+
+footer .list-group-item{
+	background-color: var(--black);
+	margin: 0; 
+}
+
+
+footer p{
+	word-spacing: 4px;
+	line-height: 0.6cm;
+}
+
+
+
+
+
+
+footer .fab , footer .fas {
+	color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+/* -------------- login  and register -----------------*/
+
+.login .card , .register .card{
+	background-color: var(--white);
+	padding: 20px;
+
+}
+
+.login .card-header , .register .card-header{
+	background-color: var(--white);
+}
+
+
+
+.login  .card-body , .register  .card-body ,{
+	position: relative;
+}
+
+
+.login .card-body img {
+	position: absolute;
+	top: -40px;
+	left: 210px;
+}
+
+ .register .card-body img{
+	position: absolute;
+	top: -50px;
+	left: 210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------- responsive desing ------------------------*/
+/*--------------------- max-width: 575.98px --------------------*/
+@media (max-width: 575.98px) {
+
+	/*--------------- header----------------*/
+	.top-header{
+		text-align: center;
+	
+	}
+
+	.top-header .col-12{
+		margin: 10px auto;
+	}
+
+
+	.bottom-header{
+		background-image: url('../assets/banner-image.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 400px;
+	}
+
+
+	.bottom-header h1{
+		color:var(--white);
+		margin: 150px auto; 
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 25px;
+
+	}
+
+	.bottom-header .buttons{
+	
+		display: none;
+		
+}
+
+
+
+	/*----------------------cars-----------------*/
+	.img-card{
+		display: inline-block;
+	}
+
+
+	.warraper{
+		display: none;
+	}
+
+	/*---------------statistique----------------------*/
+	.statistique{
+		background-image: url('../assets/fun-facts-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 300px;
+		
+	}
+
+	.statistique .col-md-3 .group-statistique{
+		background-color:var(--red);
+		width: 100px;
+		height: 100px;
+		margin: 50px auto;
+		border-radius: 50%;
+
+
+
+	}
+	.statistique .col-md-3 .group-statistique .sub-statistique{
+
+		text-align: center;
+		color:var(--white);
+		font-weight: bolder;
+	}
+
+	.statistique .col-md-3 .group-statistique .fa , .statistique .col-md-3 .group-statistique .fas{
+		margin: 10px auto auto auto;
+		font-size:16px;
+
+	}
+
+	.statistique .col-md-3 .group-statistique .sub-statistique h5{
+		font-size:16px;
+		font-weight: 900;
+	}
+
+	.statistique .col-md-3 .group-statistique .sub-statistique p{
+		font-size:12px;
+	}
+
+
+	/*------------------------- footer ------------------*/
+	footer{
+		background-color: var(--black);
+		height: 1000px;
+		padding: 40px;
+		bottom: 0;
+		color:var(--white);
+	}
+
+	.services{
+		
+		text-align: center;
+	}
+
+
+	.services .icon-services{
+	
+	margin: 25px 90px;
+	
+	
+	
+}
+
+}
+
+/*--------------------- min-width: 576px and max-width: 767.98px --------------------*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+	/*----------------header ------------------*/
+	.top-headerr{
+		text-align: center;
+	}
+
+	.top-header .col-12{
+		margin: 10px auto;
+	}
+
+	.bottom-header{
+		background-image: url('../assets/banner-image.jpg');
+		background-size: cover;
+		background-position: center;
+		height: 500px;
+		
+	}
+
+
+	.bottom-header h1{
+		color:var(--white);
+		margin: 150px auto; 
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 25px;
+
+	}
+
+
+	.bottom-header .buttons{
+	
+		margin: 140px 140px;
+		
+		
+	}
+	/* --------- cars ----------------------*/
+	.img-card{
+		display: inline-block;
+	}
+
+	.warraper{
+		display: none;
+	}
+	/* ----------------------statistique--------------*/
+	.statistique{
+		background-image: url('../assets/fun-facts-bg.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 300px;
+		
+	}
+
+	.statistique .col-md-3 .group-statistique{
+		background-color: var(--red);
+		width: 100px;
+		height: 100px;
+		margin: 50px auto;
+		border-radius: 50%;
+
+
+
+	}
+	.statistique .col-md-3 .group-statistique .sub-statistique{
+
+		text-align: center;
+		color:var(--white);
+		font-weight: bolder;
+	}
+
+	.statistique .col-md-3 .group-statistique .fa , .statistique .col-md-3 .group-statistique .fas{
+		margin: 10px auto auto auto;
+		font-size:12px;
+
+	}
+
+	.statistique .col-md-3 .group-statistique .sub-statistique h5{
+		font-size:16px;
+		font-weight: 900;
+	}
+
+	.statistique .col-md-3 .group-statistique .sub-statistique p{
+
+		font-size:12px;
+	}
+
+	/*------------------ footer ------------------------*/
+	footer{
+
+		background-color:var(--black);
+		height: 800px;
+		padding: 40px;
+		bottom: 0;
+		color:white;
+	}
+
+	.services{
+		
+		text-align: center;
+	}
+
+
+	.services .icon-services{
+	
+	margin: 25px 200px;
+	
+	
+	
+}
+
+
+}
+
+/*-----------------------max-width: 768px---------------------*/
+
+
+@media (max-width: 768px) {
+	/*---------------customer_review ---------------------*/
+	.carousel-inner .carousel-item > div {
+		display: none;
+	}
+	.carousel-inner .carousel-item > div:first-child {
+		display: block;
+	}
+}
+
+
+
+/*--------------------- min-width: 768px------------------------*/
+@media (min-width: 768px) {
+	/*---------------customer_review ---------------------*/
+	.carousel-inner .carousel-item-right.active,
+	.carousel-inner .carousel-item-next {
+		transform: translateX(33.333%);
+	}
+
+	.carousel-inner .carousel-item-left.active, 
+	.carousel-inner .carousel-item-prev {
+		transform: translateX(-33.333%);
+	}
+}
